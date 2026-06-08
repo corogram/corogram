@@ -1,0 +1,14 @@
+build/
+out/
+.vs/
+.vscode/
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+compile_commands.json
+install_manifest.txt
+cmake_install.cmake
+*.lib
+*.dll
+*.exe
+main.cpp

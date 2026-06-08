@@ -1,0 +1,14 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+find_dependency(Drogon      REQUIRED)
+find_dependency(OpenSSL     REQUIRED)
+find_dependency(nlohmann_json REQUIRED)
+
+if(@COROGRAM_HAS_HIREDIS@)
+    find_dependency(hiredis CONFIG REQUIRED)
+endif()
+
+include("${CMAKE_CURRENT_LIST_DIR}/corogramTargets.cmake")
+check_required_components(corogram)
