@@ -504,7 +504,7 @@ corogram was built over approximately 4 months, drawing inspiration from the des
 
 - [aiogram](https://github.com/aiogram/aiogram) — Python async bot framework; the primary inspiration for the filter system (`F::`), MagicFilter (`MF.`), FSM design, middleware pipeline, and Router/Dispatcher architecture
 - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) — `Update`/`Context` pattern and `effective_message`-style convenience accessors
-- [TgBotCpp](https://github.com/egorpugin/tgbot-cpp) — C++ Telegram type/method code generation approach
+- [TgBotCpp](https://github.com/egorpugin/tgbot) — C++ Telegram type/method code generation approach
 - [tgbot-cpp](https://github.com/reo7sp/tgbot-cpp) — C++ API method structure
 - [Drogon](https://github.com/drogonframework/drogon) — the async HTTP and coroutine foundation that makes corogram possible
 - [nlohmann/json](https://github.com/nlohmann/json) — JSON serialization/deserialization
